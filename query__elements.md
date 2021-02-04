@@ -12,9 +12,8 @@ hideElements(className) {
 },
 ```
 
-<details>
-  <summary>Explained</summary>
-  <code>
+Explained
+```javascript
 /**
  *  - Here's an example of a method that will take a CSS class name
  *    and it will hide the element(s) by setting their display to none. 
@@ -34,7 +33,6 @@ hideElements(className) {
 
   Object.values(elements).forEach(element => element.style.display = 'none');
 },
-</code>
-</details>
+```
 
 
