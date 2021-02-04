@@ -14,6 +14,7 @@ hideElements(className) {
 
 <details>
   <summary>Explained</summary>
+  <code>
 ```javascript
 /**
  *  - Here's an example of a method that will take a CSS class name
@@ -35,6 +36,7 @@ hideElements(className) {
   Object.values(elements).forEach(element => element.style.display = 'none');
 },
 ```
+</code>
 </details>
 
 
