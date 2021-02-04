@@ -5,8 +5,12 @@
 
 ### Hide Elements
 ```javascript
+/**
+ *  - Here's an example of method that will take a CSS class name
+ *    and it will hide the element(s) by setting the display to none. 
+ */
 hideElements(className) {
-  const elements = document.querySelectorAll(className);
+  const elements = document.querySelectorAll(`.${className}`);
 
   console.log('typeof elements: ', typeof elements);
   // typeof elementes: object
