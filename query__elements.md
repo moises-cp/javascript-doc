@@ -12,7 +12,7 @@ hideElements(className) {
 },
 ```
 
-Explained
+With Explanation
 ```javascript
 /**
  *  - Here's an example of a method that will take a CSS class name
